@@ -1,0 +1,12 @@
+*.aux
+*.gaux
+*.idx
+*.log
+*.out
+*.synctex.gz*
+*~
+*.toc
+.*.xml
+*.pdf
+.~lock*
+Fait
