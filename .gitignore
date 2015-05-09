@@ -9,4 +9,9 @@
 .*.xml
 *.pdf
 .~lock*
-Fait
+*.gtex
+tmp_ly
+*-auto.tex
+*.fdb_latexmk
+*.ilg
+*.ind

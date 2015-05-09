@@ -1,5 +1,5 @@
 \version "2.16.0"
-\include "italiano.ly"
+\language "français"
 
 \header {
   tagline = ""

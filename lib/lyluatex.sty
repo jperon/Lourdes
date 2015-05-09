@@ -1,0 +1,60 @@
+\ProvidesPackage{lyluatex}
+
+% Dépendances
+\RequirePackage{graphicx}
+\RequirePackage{keycommand}
+\RequirePackage{environ}
+% Script lua
+\directlua{dofile(kpse.find_file("lyluatex.lua"))}
+
+% Une tricherie un peu sale pour récupérer la largeur de ligne
+\let\bs\textbackslash
+{\catcode`p=12 \catcode`t=12 \gdef\un#1pt{#1}}
+\newcommand*{\largeur}{\expandafter\un\the\linewidth}
+% Taille des partitions
+\newcounter{staffsize}\setcounter{staffsize}{17}
+\newcounter{localstaffsize}\setcounter{staffsize}{17}
+
+
+% Commandes principales
+% Inclusion d'un fichier ly
+\newkeycommand*\includely[staffsize=\arabic{staffsize}][autres][1]{%
+\directlua{%
+    inclure_ly(
+        "\luatexluaescapestring{#1}",
+        \luatexluaescapestring{\largeur},
+        \luatexluaescapestring{\commandkey{staffsize}}
+    )%
+}%
+}
+
+% Inclusion d'un fragment intégré au document (environnement de base)
+\NewEnviron{compilerly}{%
+\directlua{%
+    direct_ly(
+        "\luatexluaescapestring{\unexpanded\expandafter{\BODY}}",
+        \luatexluaescapestring{\largeur},
+        \luatexluaescapestring{\arabic{localstaffsize}}
+    )%
+}%
+}
+
+% Commande et environnement avec paramètres
+\newkeycommand{\lily}[staffsize=\arabic{staffsize}][autres][1]{%
+\setcounter{localstaffsize}{\commandkey{staffsize}}%
+\begin{compilerly}%
+#1
+\end{compilerly}%
+}
+
+\newkeyenvironment{ly}[staffsize=\arabic{staffsize}][autres]{%
+\setcounter{localstaffsize}{\commandkey{staffsize}}%
+\compilerly%
+}{
+\endcompilerly%
+}
+
+% Commandes pour la compatibilité avec lilypond-book
+\let\lilypondfile\includely
+\let\lilypond\ly
+\let\endlilypond\endly

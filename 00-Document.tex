@@ -9,7 +9,6 @@ a5paper%                       Taille de page.
 ,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
 ,headings=small%
 ,parskip=false%
-,titlepage%
 ,openany%
 ]{scrbook}
 \renewcommand*\partheademptypage{\thispagestyle{empty}}
@@ -17,13 +16,15 @@ a5paper%                       Taille de page.
 %\usepackage{geometry}
 
 % Par souci de clarté, la définition des commandes est reportée dans un document annexe.
-\usepackage{gredoc,mudoc}
+\usepackage{gredoc,mudoc,lyluatex}
 \usepackage{pdfpages,transparent,array,ltablex}
 \addtolength{\voffset}{2mm}\addtolength{\headsep}{-2mm}
 \setlength{\extrarowheight}{2mm}
 \addto\captionsfrench{%
   \renewcommand{\indexname}{Index des chants}%
 }
+
+\pdfcompresslevel=9
 
 \newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
 

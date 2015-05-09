@@ -2,7 +2,7 @@
 %Apercu:evince AingeruBatek.pdf
 %Esclaves:timidity -ia AingeruBatek.midi
 \version "2.12.1"
-\include "italiano.ly"
+\language "français"
 
 \header {
 	title = "Aingeru batek"
