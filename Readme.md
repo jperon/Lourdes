@@ -1,6 +1,6 @@
 # Completorium
 
-Ce document est un livret destiné à suivre les Complies en rite traditionnel.
+Ce document est un livret utilisé à l'occasion d'un pèlerinage à Lourdes.
 
 Saisi en LaTeX, il est conçu de façon à séparer autant que possible la
 définition des commandes du corps du document, de façon à rendre facile la
@@ -21,53 +21,53 @@ cependant assez naturelles à utiliser.
 
 ### Rubriques
 
-* \rubrica{TEXTE} : pour saisir une rubrique ;
-* \rubrum{TEXTE} : pour colorer le texte en rouge ;
-* \TP{TEXTE} : pour les rubriques propres au Temps pascal.
+* \\rubrica{TEXTE} : pour saisir une rubrique ;
+* \\rubrum{TEXTE} : pour colorer le texte en rouge ;
+* \\TP{TEXTE} : pour les rubriques propres au Temps pascal.
 
 ### Bi-linguisme
 
 Commandes :
-* \versiculus{LATIN}{VERNACULAIRE} et \responsum{LATIN}{VERNACULAIRE} :
+* \\versiculus{LATIN}{VERNACULAIRE} et \responsum{LATIN}{VERNACULAIRE} :
     pour saisir versets et répons, sans se soucier des ℣. et ℟.
-* \oratio{LATIN}{VERNACULAIRE} : pour saisir une oraison, sans s'occuper du
+* \\oratio{LATIN}{VERNACULAIRE} : pour saisir une oraison, sans s'occuper du
     *Dóminus vobíscum* et du *Amen*
 
 Environnements :
 * *priere* : pour saisir une prière en vernaculaire ;
 * *litaniae* : pour les litanies. Au sein de cet environnement, les invocations
-    doivent être saisies au sein d'une commande \invocatio{LATIN}{VERNACULAIRE}
+    doivent être saisies au sein d'une commande \\invocatio{LATIN}{VERNACULAIRE}
 	ou d'une commande
-	\rinvocatio{LATIN}{VERNACULAIRE}{REPONSELATIN}{REPONSEVERNACULAIRE}
+	\\rinvocatio{LATIN}{VERNACULAIRE}{REPONSELATIN}{REPONSEVERNACULAIRE}
 
 ### Musique
 
-* \cantus{DOSSIER}{PARTITION}{TYPE}{MODE} : pour insérer des partitions gabc
-* \vulgo{TEXTE EN VERNACULAIRE} : pour saisir la traduction d'un chant avant
+* \\cantus{DOSSIER}{PARTITION}{TYPE}{MODE} : pour insérer des partitions gabc
+* \\vulgo{TEXTE EN VERNACULAIRE} : pour saisir la traduction d'un chant avant
     la partition
-* \ps{CHIFFRE ROMAIN} : pour indiquer le titre d'un psaume
-* \psalmus{PSAUME} : pour saisir un psaume, en indiquant le premier verset,
+* \\ps{CHIFFRE ROMAIN} : pour indiquer le titre d'un psaume
+* \\psalmus{PSAUME} : pour saisir un psaume, en indiquant le premier verset,
     le dernier, et le ton souhaité.
-* \versus{VERSET DE PSAUME}, \praa, \prab… (cf. *gredoc.sty*) : commandes de
+* \\versus{VERSET DE PSAUME}, \\praa, \\prab… (cf. *gredoc.sty*) : commandes de
     formatage des psaumes, pour éviter de devoir saisir manuellement à chaque
-	fois des \textit{} et des \textbf{}.
+	fois des \\textit{} et des \\textbf{}.
 
 ### Commandes pour faciliter la saisie de ℣, ℟, †, ✠, et \* (hémistiche)
 
-* \vb : ℣
-* \rb : ℟
+* \\vb : ℣
+* \\rb : ℟
 * \\+ : †
-* \crux : ✠
+* \\crux : ✠
 * \\\* : \*
 
 Toutes ces commandes sont mises en rouge. En outre, si l'on donne un paramètre
-à \vb ou \rb, ce paramètre est lui aussi en rouge. Les quatre premiers
+à \\vb ou \\rb, ce paramètre est lui aussi en rouge. Les quatre premiers
 caractères sont *actifs* : si vous les saisissez directement, ils seront
 reconnus et auront le même comportement que la commande.
 
 Ici encore, un petit dessin vaut mieux qu'un long discours : si vous saisissez
 ℟. vous obtiendrez sur le document final ce symbole en rouge avec le point en
-rouge ; si vous ne savez pas saisir directement le symbole ℟, la commande \rb.
+rouge ; si vous ne savez pas saisir directement le symbole ℟, la commande \\rb.
 donnera le même résultat que ℟.
 
 Voyez *gredoc.sty* si ceci ne vous semble pas clair.
