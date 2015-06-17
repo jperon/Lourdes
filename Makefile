@@ -10,7 +10,7 @@ schola:
 	cp Fait/$(FICHIER).pdf .
 
 debug:
-	($(EXPORTS) ; lualatex -shell-restricted -synctex=1 $(FICHIER) ; lualatex -shell-restricted -synctex=1 $(FICHIER))
+	($(EXPORTS) ; lualatex -shell-restricted -synctex=1 $(FICHIER))
 
 final:
 	($(EXPORTS) ; $(LATEX_CMD) $(FICHIER) ; $(LATEX_CMD) $(FICHIER))

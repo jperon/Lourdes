@@ -166,8 +166,8 @@
 \let\taillenormale\normalsize
 \normalsize
 %%% Couleur rouge pour les rubriques.
-\definecolor{rubrum}{rgb}{.6,0,0}
-%\def\rubrum{\color{rubrum}}
+\definecolor{gregoriocolor}{rgb}{.6,0,0}
+%\def\rubrum{\color{gregoriocolor}}
 \def\rubrum{\color{black}}
 %\let\red\rubrum
 \newcommand{\rubrica}[2][french]{{\small%
@@ -293,20 +293,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% Réglages pour les lignes de portée.
-%\grecoloredlines{153}{0}{0}
+\gresetlinecolor{gregoriocolor}
 \grechangestafflinethickness{15}
 \grechangedim{spacelinestext}{3.3ex}{1}
 \grechangedim{abovelinestextraise}{0ex}{1}
 
+%%% Espace entre les annotations au-dessus de la lettrine
+\grechangedim{annotationseparation}{-2mm}{0}
+\grechangedim{annotationraise}{-1mm}{0}
+
 %%% Insertion d'une partition
-\newcommand{\cantus}[4]{%
-	\greannotation{{\rubrum\scriptsize \textsc{#3}}}%
-	\greannotation{{\rubrum\scriptsize \textsc{#4}}}%
+\newcommand{\cantus}[4]{{%
+	\greannotation{{\rubrum\scriptsize \textsc{#3}}}
+	\greannotation{{\rubrum\scriptsize \textsc{#4}}}
 	{\widowpenalties 3 0 0 0 \clubpenalties 3 0 0 0%\nowidow[1]\noclub[1]
 		\gregorioscore{gabc/#1/#2.gabc}%
 	}
-	\smallskip
-	\smallskip
+}
+\smallskip
+\smallskip
 }
 
 %%% Traduction des pièces notées, avant ou après.
