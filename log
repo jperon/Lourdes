@@ -1,0 +1,319 @@
+Sortie :
+========
+
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238) 
+ restricted \write18 enabled.
+(/opt/musite/static/docs/tmp/Liber/00-Pieces.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 29 languages loaded.
+(./entete/a6.tex (/usr/share/texlive/texmf-dist/tex/latex/nag/nag.sty
+(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-orthodox.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-l2tabu.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2015/07/02 v3.18 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package scrlfile, 2015/07/02 v3.18 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize10pt.clo)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package typearea, 2015/07/02 v3.18 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+
+Package typearea Warning: Maybe no optimal type area settings!
+(typearea)                The maximum limit of line width is about 24%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You may e.g. increase DIV, decrease fontsize
+(typearea)                or change the papersize.
+
+
+Package typearea Warning: page content and margins higher than paper.
+(typearea)                This may result in page footer out of paper.
+(typearea)                You should decrease DIV, decrease foot height,
+(typearea)                or include footer into type area.
+
+)) (./lib/gredoc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/nowidow/nowidow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/modutils.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/cctb.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/mcb.lua)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.lua)(
+using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var/l
+ib/texmf/luatex-cache/generic /root/.texmf-var/luatex-cache/generic)
+luaotfload | main : fontloader loaded in 0.033 seconds
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-configuration.lu
+a)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.lua)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmr.fd)(load luc: /var/lib/tex
+mf/luatex-cache/generic/fonts/otf/lmroman10-regular.luc))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf/tex/latex/tipa/t3enc.def(load luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otf/lmromanslant10-regular.luc)(load luc: /var/lib/texmf/luatex-c
+ache/generic/fonts/otf/lmroman10-italic.luc)(load luc: /var/lib/texmf/luatex-cac
+he/generic/fonts/otf/lmroman10-bold.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmss.fd)(load luc: /var/lib/te
+xmf/luatex-cache/generic/fonts/otf/lmsans10-regular.luc))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def))))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-french.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia-frpt.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latin.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty) (./lib/paracol.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/keycommand/keycommand.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+Loading lettrine.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty)
+
+Class scrbook Warning: Usage of package `titlesec' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use the package only
+(scrbook)              if you really need it, because it breaks several
+(scrbook)              KOMA-Script features, i.e., option `headings' and
+(scrbook)              the extended optional argument of the section
+(scrbook)              commands.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `titlesec' on input line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+)
+
+Package scrbook Warning: Activating an ugly workaround for a missing
+(scrbook)                feature of package `titlesec` on input line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/pdftexcmds.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.lua))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.lua)
+(00-Pieces.gaux)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(load luc: /var/
+lib/texmf/luatex-cache/generic/fonts/otf/greciliae.luc)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex(load luc: /var/
+lib/texmf/luatex-cache/generic/fonts/otf/greextra.luc))
+(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriosyms.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))(load luc: /var/lib/te
+xmf/luatex-cache/generic/fonts/otf/linlibertine-r.luc)(load luc: /var/lib/texmf/
+luatex-cache/generic/fonts/otf/linlibertine-rb.luc)(load luc: /var/lib/texmf/lua
+tex-cache/generic/fonts/otf/linlibertine-ri.luc)(load luc: /var/lib/texmf/luatex
+-cache/generic/fonts/otf/linlibertine-rbi.luc)(load luc: /var/lib/texmf/luatex-c
+ache/generic/fonts/otf/linbiolinum-r.luc)(load luc: /var/lib/texmf/luatex-cache/
+generic/fonts/otf/linbiolinum-rb.luc)(load luc: /var/lib/texmf/luatex-cache/gene
+ric/fonts/otf/linbiolinum-ri.luc)(load luc: /var/lib/texmf/luatex-cache/generic/
+fonts/otf/linbiolinum-rbo.luc)(load luc: /var/lib/texmf/luatex-cache/generic/fon
+ts/otf/linlibertine-rz.luc)(load luc: /var/lib/texmf/luatex-cache/generic/fonts/
+otf/linlibertine-rzi.luc)
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=Monospaced,Lining' (+tnum) not available for font
+* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
+*************************************************
+
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=Monospaced,Lining' (+tnum) not available for font
+* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
+*************************************************
+(load luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-dr.luc)(lo
+ad luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-m.luc)(load l
+uc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mb.luc)(load luc:
+ /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mo.luc)(load luc: /v
+ar/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mbo.luc)(load luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otf/linbiolinum-k.luc)(load luc: /var/lib/
+texmf/luatex-cache/generic/fonts/otf/linlibertine-i.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc,dfont); reason: "Font LacensisInitial-Medium not found.".(load luc: /va
+r/lib/texmf/luatex-cache/generic/fonts/otf/lacensisinitial-medium.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+
+Package hyperref Warning: Unexpected value for option `pdftex'
+(hyperref)                is ignored on input line 4319.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
+(./lib/mudoc.sty (/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty))
+Writing index file 00-Pieces.idx
+(./lib/lyluatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))lilypond
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty))) (./00-Pieces.aux
+) (/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+Overfull \hbox (227.07668pt too wide) detected at line 9
+[]
+
+Overfull \hbox (227.07668pt too wide) detected at line 9
+[]
+(./gabc/Hymne/TeGratulantes-4_0_0-beta2.gtex
+Overfull \hbox (2.1227pt too wide) in paragraph at lines 4--241
+[] []  [][][][] [][][][][] [][][][][][][][][][][][][][][][] [][][][][][][][] []
+[][][][][][][][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] []
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--241
+[]
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (231.71068pt too wide) detected at line 41
+[]
+
+Overfull \hbox (231.71068pt too wide) detected at line 41
+[]
+(./gabc/Antienne/OptimamPartem-4_0_0-beta2.gtex
+Underfull \hbox (badness 10000) in paragraph at lines 4--287
+[]
+)
+No complaints by nag.
+[3] (./00-Pieces.aux))
+LuaTeX warning: \pdfdraftmode enabled, not changing output pdf
+
+
+
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+
+
+Erreurs :
+=========
+
+
+
