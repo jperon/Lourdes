@@ -1,40 +1,44 @@
 Output :
 ========
 
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
+This is LuaTeX, Version 0.98.3 (TeX Live 2017/dev) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Antienne/main.tex
-LaTeX2e <2017-04-15>
+(/opt/musite/static/docs/tmp/Lourdes/gabc/Offertoire/main.tex
+LaTeX2e <2017/01/01> patch level 3
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
-/lib/texmf/luatex-cache/generic /root/.texlive2017/texmf-var/luatex-cache/gener
+/lib/texmf/luatex-cache/generic /root/.texlive2016/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.130 seconds
-Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 1.377 seconds
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2017/04/13 v3.23 KOMA-Script document class (article)
+Document Class: scrartcl 2016/06/14 v3.21 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo(load luc: 
 /var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-regular.luc))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
 (/usr/share/texmf/tex/lualatex/gregoriotex/gregoriotex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -76,39 +80,7 @@ xmf/luatex-cache/generic/fonts/otl/linlibertine-rb.luc)(load luc: /var/lib/texm
 f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./SalvatorMundi-5_0_2.gtex
-Overfull \hbox (6.30266pt too wide) detected at line 109
-|
-
-Overfull \hbox (8.45567pt too wide) detected at line 117
-|
-
-Overfull \hbox (8.45567pt too wide) detected at line 126
-|
-
-Overfull \hbox (8.17033pt too wide) detected at line 144
-|
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 11041 words of node memory still in use:
-   341 hlist, 45 vlist, 181 rule, 1 local_par, 217 glue, 223 kern, 45 penalty, 
-84 glyph, 863 attribute, 75 glue_spec, 150 attribute_list, 1 write, 1 user_defi
-ned, 92 pdf_colorstack nodes
-   avail lists: 2:3078,3:373,4:24,5:452,6:239,7:113,8:22,9:187,10:8,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
-Transcript written on main.log.
-
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
 
 
 
