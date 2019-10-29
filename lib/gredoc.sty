@@ -70,7 +70,7 @@
 \RequirePackage{lettrine}
 
 %%% KOMA - Options de titres, de numéros de pages...
-\RequirePackage{scrpage2,titlesec}
+\RequirePackage{scrlayer-scrpage,titlesec}
 \pagestyle{scrheadings}
 \setcounter{secnumdepth}{0}
 \renewcommand*{\partformat}{}
@@ -132,18 +132,21 @@
 \def\lettrine#1#2{\vspace{-1.5\baselineskip}\oldlettrine{#1}{#2}}
 
 %%% PDF.
-\RequirePackage[pdftex=true,%
-    hypertexnames=false,%
-    pdfborder=0,%
-    hyperindex=true,%
-    pdfpagelabels=true,%
-    unicode%
-    ]{hyperref}
-\let\oldaddcontentsline\addcontentsline
-\renewcommand{\addcontentsline}{%
-    \phantomsection
-    \oldaddcontentsline%
-}
+%\RequirePackage[pdftex=true,%
+%    hypertexnames=false,%
+%    pdfborder=0,%
+%    hyperindex=true,%
+%    pdfpagelabels=true,%
+%    unicode%
+%    ]{hyperref}
+%\RequirePackage{hyperref}
+%\hypersetup{pdfencoding=auto}
+%\let\oldaddcontentsline\addcontentsline
+%\renewcommand{\addcontentsline}{%
+%    \phantomsection
+%    \oldaddcontentsline%
+%}
+%\RequirePackage{navigator}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Paramètres personnalisés. %%%%%%%%%%%%%%%%%%%%%%%%%%%
